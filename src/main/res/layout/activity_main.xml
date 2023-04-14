@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#03A9F4"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/mTvTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Linear Layouts"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/mtvcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eMobilis coding school eMobilis coding school eMobilis coding school
+eMobilis coding school eMobilis coding school eMobilis coding school eMobilis coding school
+eMobilis coding school eMobilis coding school eMobilis coding schooleMobilis coding school"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#03A9F4"
+            android:id="@+id/mbtnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LOGIN" />
+
+        <Button
+            android:id="@+id/mbtnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/kenya" />
+</LinearLayout>
